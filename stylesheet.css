@@ -1,0 +1,41 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(245, 243, 245);
+    display:flex;
+    justify-content: center;
+}
+.card
+{
+    background-color:rgb(248, 151, 151);
+
+    border:1px solid black;
+    padding:20px;
+    width:700px;
+    margin:20px;
+    line-height:28px;
+    
+
+}
+::-webkit-scrollbar
+{
+background-color: transparent;
+width:17px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(#ff5858,#ffc8c8);
+    border-radius: 100px;
+}
+.card-tile
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(81, 31, 31);
+    text-decoration: underline;
+}
